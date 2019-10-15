@@ -14,6 +14,6 @@ int main()
           else if (a[i]!=' '&&a[i]!='\n')
             c++;
       }
-      cout<<c<<" "<<v;
+      cout<<"consoane "<<c<<" vocale "<<v;
     return 0;
 }
