@@ -1,3 +1,3 @@
 # teme-la-info
-da
-X intensiv
+
+a-X-a intensiv
