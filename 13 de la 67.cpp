@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int v=0,c=0,i;
-    char a[100],vocale[]="aeiou";
+    char a[100],vocale[]="aeiouAEIOU";
     cin.get(a,100);
       for(i=0;i<=strlen(a);i++)
       {
