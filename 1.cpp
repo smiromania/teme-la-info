@@ -6,15 +6,15 @@ int main()
 {
 
   char s[256];
-  int i, j, gasit;
+  int i, j, cacat;
   cin.get(s, 256);
   for (i = 0; i < strlen(s); i++)
     if (s[i] >= 'a' && s[i] <= 'z') {
-      gasit = 0;
+      cacat = 0;
       for (j = 0; j < i; j++)
         if (s[i] == s[j])
-          gasit = 1;
-      if (!gasit)
+          cacat = 1;
+      if (!cacat)
         cout << s[i] << " ";
     }
 }
