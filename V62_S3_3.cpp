@@ -3,16 +3,18 @@
 using namespace std;
 void fibo(int n, long long v[30])
 {
-    long long a[100], j = 0;
+    long long a[100], j = 2;
     a[0] = 1;
     a[1] = 1;
+    v[0] = 1;
+    v[1] = 1;
     for (int i = 2; i < n * 3 + 2; i++)
     {
         a[i] = a[i - 1] + a[i - 2];
         if (a[i] % 2)
         {
             v[j] = a[i]; j++;
-            cout << v[j - 1] << endl;
+            
         }
         if (j == n)
             i = n * 4;
