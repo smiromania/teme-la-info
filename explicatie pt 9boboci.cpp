@@ -173,7 +173,6 @@ int main()
                     n++;
                     kk++;
                 }
-            
         }
     }
     cout << "g) Vectorul cu divizorii proprii crescatori pt fiecare element maxim: ";
