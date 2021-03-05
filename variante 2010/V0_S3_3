@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+void tablou(int n, int k, int a[250])
+{
+    int m = 0;
+    for (int i = 1; i <= n; i++)
+        for (int j = 1; j <= k; j++)
+            a[++m] = i;
+
+}
+
+int main()
+{
+    int k, n, a[250];
+    cin >> n >> k;
+    tablou(n, k, a);
+
+    for (int i = 1; i <= k * n; i++)
+        cout << a[i]<<" " ;
+}
+
