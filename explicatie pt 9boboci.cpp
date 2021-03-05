@@ -158,16 +158,16 @@ int main()
 
     //g 
     //la asta e matematica si mutare de vectori pentru a elibera un spatiu
-    int ii;
+        int ii;
     for (i = 1; i <= n; i++)
     {
-        int kk = i+1;
+        int kk = i+1; //locul unde va fi pus divizorul
         if (v[i] == max)
         {
             for (j = 2; j <= max / 2; j++)
                 if (max % j == 0)
-                {
-                    for (ii = n; ii >= i + 1; ii--)
+                { 
+                    for (ii = n; ii >= kk; ii--)
                         v[ii + 1] = v[ii];
                     v[kk] = j;
                     n++;
