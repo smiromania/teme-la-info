@@ -155,7 +155,7 @@ int main()
 
     //g 
     
-    int ii;
+        int ii;
     for (i = 1; i <= n; i++)
     {
         int kk = i+1;
@@ -164,7 +164,7 @@ int main()
             for (j = 2; j <= max / 2; j++)
                 if (max % j == 0)
                 {
-                    for (ii = n; ii >= i + 1; ii--)
+                    for (ii = n; ii >= kk; ii--)
                         v[ii + 1] = v[ii];
                     v[kk] = j;
                     n++;
