@@ -225,7 +225,7 @@ int main()
     {
         int cop = v[i],cif[10];
         if (cop < 0)
-            cop = cop - (2 * cop);
+            cop = cop - (2 * cop); //daca nr e negativ ii facem modulul
         for (j = 0; j <= 9; j++)
             cif[j]=0; //vector pentru a verifica prezenta fiecarei cifre in parte
 
