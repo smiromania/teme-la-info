@@ -114,15 +114,14 @@ int main()
     cout << endl;
 
     //refac vectorul la cel initial
-    //AICI INTREBATI PE JOHN RESETAM VECTORUL LA FIECARE SUBPUNCT IN CARE ESTE MODIFICAT CA NU STIU SIGUR DACA E BINE
+    
     for (i = 1; i <= n_copy; i++)
     {
         v[i]= v_copy[i];
     }
     n = n_copy;
-    //DACA NU TREBUIE RESETAT VECTORUL LA ELEMENTELE INITIALE VEDETI CA AM PUS ASTA DE MAI MULTE ORI PRIN PROGRAM
-    //____________________________________________________________________
-
+    //_____________________________________________________________________________________
+    
 
 
     //f
